@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何下载旧版本Python的安装包</title>
+      <link href="/2023/08/07/%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BD%E6%97%A7%E7%89%88%E6%9C%ACPython%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/"/>
+      <url>/2023/08/07/%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BD%E6%97%A7%E7%89%88%E6%9C%ACPython%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/</url>
+      
+        <content type="html"><![CDATA[<p>　　　本文介绍如何从Python官网中找到旧版本Python安装包的下载链接。</p><p>　　受限于一些第三方模块对新版本Python的支持问题，我们有时候不得不使用较旧版本的Python。但是Python官方对旧版本的支持通常是有限的，当你想在官网重新下载某个旧版本的安装文件时，会发现只能在Download页面找到它的security release或者bugfix release，而安装包已经找不到了。</p><p><img src="https://yfzhu.cn/post_img/2023/07/installer-for-older-versions-of-python-01.jpg"></p><p>　　以阿猪要找的Python3.9为例，在Download页面只能看到Python3.11的安装包下载链接，而Python3.9只能看到一个security release的下载链接。</p><p><img src="https://yfzhu.cn/post_img/2023/07/installer-for-older-versions-of-python-02.jpg"></p><p>　　点击这个security release的链接，可以在Files这里看到只有安全补丁的下载链接，没有安装包的下载链接。在No installers这里可以看到“…Python3.9目前进入‘仅提供安全补丁’的阶段…二进制安装程序已经不再提供…Python3.9.13是最后一个包含了二进制安装程序的bugfix版本”的提示。</p><p><img src="https://yfzhu.cn/post_img/2023/07/installer-for-older-versions-of-python-02.jpg"></p><p>　　答案就在这里了，在Python3.9.x中，3.9.13是最后一个包含了安装程序的bugfix版本。<br>　　回到Download页面，在Looking for a special release?这里向下拉动滚动条，找到前边提到的3.9.13，点击进入。</p><p><img src="https://yfzhu.cn/post_img/2023/07/installer-for-older-versions-of-python-03.jpg"></p><p>将页面拉动至底部<code>Files</code>区域，就可以看到亲切的安装包下载链接了。</p><p><img src="https://yfzhu.cn/post_img/2023/07/installer-for-older-versions-of-python-04.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>NoSQL概述</title>
       <link href="/2023/07/29/NoSQL%E6%A6%82%E8%BF%B0/"/>
       <url>/2023/07/29/NoSQL%E6%A6%82%E8%BF%B0/</url>
